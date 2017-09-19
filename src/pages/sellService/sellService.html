@@ -1,0 +1,32 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>Sell A Service</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content class="welcome">
+
+
+    <div padding>
+        <button (click)="createService()" ion-button color="primary" block class="login">{{ 'Create Service' }}</button>
+    </div>
+
+
+    <div class="item-detail" padding style="text-align: center;color: white">
+
+        <h2>{{serviceText}}</h2>
+
+        <ion-row>
+            <ion-col col-6 *ngFor="let service of services">
+                <div (click)="showMap(service.latitude,service.longitude,service.name)" style="background-color: black;margin:5px;padding: 15px">
+                    <img src="../../../assets/img/service.png" width="100%" height="100%">
+                    <div style="font-size:16px;font-weight: bold">{{service.name}}</div>
+
+                </div>
+            </ion-col>
+
+        </ion-row>
+    </div>
+</ion-content>

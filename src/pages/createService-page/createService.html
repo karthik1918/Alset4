@@ -1,0 +1,45 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>Create A Service</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content class="welcome">
+
+    <div padding>
+        <form (submit)="createService()">
+            <ion-list>
+
+                <ion-item>
+                    <ion-label fixed>{{ 'Name' }}</ion-label>
+                    <ion-input style="color:white" type="text" [(ngModel)]="service.name" name="name"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label fixed>{{ 'Description' }}</ion-label>
+                    <ion-textarea style="color:white" [(ngModel)]="service.description" name="description"></ion-textarea>
+
+
+                </ion-item>
+
+                <ion-item>
+                    <ion-label fixed>{{ 'Latitude' }}</ion-label>
+                    <ion-input style="color:white" type="text" [(ngModel)]="service.latitude" name="latitude"></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label fixed>{{ 'Longitude' }}</ion-label>
+                    <ion-input style="color:white" type="text" [(ngModel)]="service.longitude" name="longitude"></ion-input>
+                </ion-item>
+
+                <div padding>
+                    <button ion-button color="primary" block class="login">{{ 'Create Service' }}</button>
+                </div>
+
+
+            </ion-list>
+        </form>
+
+    </div>
+</ion-content>

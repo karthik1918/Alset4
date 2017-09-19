@@ -1,0 +1,38 @@
+page-welcome {
+
+  button.welcomeBtns {
+    display: block;
+    width: 100%;
+    margin: 15px 5px;
+    background-color: transparent;
+    border: 1px solid #5F7988;
+    border-radius: 10px;
+    //color: #6495ED;
+
+
+    &.activated {
+      color: rgb(28, 26, 41);
+      background-color: white;
+    }
+  }
+
+  .welcomeText{
+    color:#5F7988;
+    font-weight:bold;
+    font-size: 16px;
+  }
+  .facebook {
+    color: #304C86;
+
+  }
+  .twitter {
+    color: #178BC8;
+  }
+  .google {
+    color: #88403F;
+  }
+  .item-ios.item-block .item-inner,.item-md.item-block .item-inner{
+    border-bottom:none;
+  }
+
+}

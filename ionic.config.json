@@ -1,0 +1,8 @@
+{
+  "name": "Alset",
+  "app_id": "8f15d20c",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

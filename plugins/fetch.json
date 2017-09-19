@@ -1,0 +1,108 @@
+{
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console@1.0.5"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device@1.1.4"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen@~4.0.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar@2.2.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1.3.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "ionic-plugin-keyboard": {
+        "source": {
+            "type": "registry",
+            "id": "ionic-plugin-keyboard@~2.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-uniquedeviceid": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-uniquedeviceid"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat@^1.0.0"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-facebook4": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-facebook4"
+        },
+        "is_top_level": true,
+        "variables": {
+            "APP_ID": "1724492567590406",
+            "APP_NAME": "Alset"
+        }
+    },
+    "cordova-plugin-googleplus": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-googleplus"
+        },
+        "is_top_level": true,
+        "variables": {
+            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.284726525555-f67p5n5ehmf5o87atj62dvfpe9fe0cml"
+        }
+    },
+    "cordova-plugin-googlemaps": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-googlemaps@2.0.0"
+        },
+        "is_top_level": true,
+        "variables": {
+            "API_KEY_FOR_ANDROID": "AIzaSyDvcGhXmNSTyy2NaNLqTtJfi4BlfDLk7_E",
+            "API_KEY_FOR_IOS": "AIzaSyC5L8RhWl7MeOUizdCfP456lRpd4ncMncc",
+            "LOCATION_WHEN_IN_USE_DESCRIPTION": "Service Location",
+            "LOCATION_ALWAYS_USAGE_DESCRIPTION": "Location used for showing service"
+        }
+    },
+    "com.googlemaps.ios": {
+        "source": {
+            "type": "registry",
+            "id": "https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-uniquedeviceid": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1724492567590406",
+            "APP_NAME": "Alset",
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-googleplus": {
+            "PACKAGE_NAME": "com.alset.app"
+        },
+        "cordova-plugin-googlemaps": {
+            "PACKAGE_NAME": "com.alset.app"
+        }
+    },
+    "dependent_plugins": {}
+}

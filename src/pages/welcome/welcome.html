@@ -1,0 +1,39 @@
+<ion-content scroll="false">
+    <div class="splash-bg"></div>
+    <!--<div class="splash-info">-->
+    <!--<div class="splash-logo"></div>-->
+    <!--<div class="splash-intro">-->
+    <!--{{ 'WELCOME_INTRO' | translate }}-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <div padding>
+        <button class="welcomeBtns">
+            <ion-item class="welcomeText" (click)="signInWithFacebook()">
+                <ion-icon name="logo-facebook" class="facebook" item-left></ion-icon>
+                {{ 'Login with Facebook' | translate }}
+            </ion-item>
+        </button>
+
+        <button class="welcomeBtns">
+            <ion-item class="welcomeText">
+                <ion-icon name="logo-twitter" class="twitter" item-left></ion-icon>
+                {{ 'Login with Twitter' | translate }}
+            </ion-item>
+        </button>
+
+        <button  class="welcomeBtns" (click)="signInWithGoogle()">
+            <ion-item class="welcomeText">
+                <ion-icon name="logo-googleplus" class="google" item-left></ion-icon>
+                {{ 'Login with Google' | translate }}
+            </ion-item>
+        </button>
+        <button (click)="loginPage()" class="welcomeBtns" [hidden]="hideLogin">
+            <ion-item class="welcomeText" style="text-align:center">{{ 'Login using account information' | translate }}</ion-item>
+        </button>
+        <button (click)="signup()" class="welcomeBtns"  [hidden]="hideSignup">
+            <ion-item class="welcomeText" style="text-align:center">{{ "Don't have an Account? Sign up" | translate }}</ion-item>
+        </button>
+        <!--<button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button>-->
+    </div>
+</ion-content>
